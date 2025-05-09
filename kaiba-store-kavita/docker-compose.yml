@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: kaiba-store-kavita_server_1
+      APP_PORT: 5000
+
+  server:
+    image: kavita/kavita:latest
+    container_name: kaiba-store-kavita
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/config:/kavita/config
+      - ${APP_DATA_DIR}/manga:/manga
+    ports:
+      - "5000:5000"

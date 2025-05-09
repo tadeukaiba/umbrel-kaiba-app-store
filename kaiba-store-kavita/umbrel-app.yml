@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: kaiba-store-kavita
+name: Kavita
+tagline: Biblioteca moderna para leitura de mangás e HQs
+icon: https://raw.githubusercontent.com/Kareadita/Kavita/main/Assets/kavita-icon.png
+category: Media
+version: "0.7.14"
+port: 5000
+description: >-
+  Kavita é uma biblioteca de leitura moderna projetada para mangás, quadrinhos, light novels e livros.
+
+  Fácil de usar, rápido e com suporte a múltiplos usuários e progresso de leitura.
+
+developer: Kavita Community
+website: https://www.kavitareader.com
+submitter: Kaiba
+submission: https://github.com/seuusuario/seu-fork-da-kaiba-store
+repo: https://github.com/Kareadita/Kavita
+support: https://github.com/Kareadita/Kavita/issues
+gallery:
+  - https://raw.githubusercontent.com/Kareadita/Kavita/main/Assets/kavita-screenshot-1.png
+  - https://raw.githubusercontent.com/Kareadita/Kavita/main/Assets/kavita-screenshot-2.png
+releaseNotes: >-
+  - Leitura contínua
+  - Suporte a CBZ, CBR, PDF
+  - Interface web responsiva
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
