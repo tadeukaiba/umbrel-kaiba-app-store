@@ -7,7 +7,7 @@ services:
       APP_PORT: 5000
 
   server:
-    image: kavita/kavita:latest
+    image: jvmilazz0/kavita:latest
     container_name: kaiba-store-kavita
     restart: unless-stopped
     volumes:
