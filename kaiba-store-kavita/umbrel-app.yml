@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kaiba-store-kavita
 name: Kavita
 tagline: Biblioteca moderna para leitura de mangás e HQs
-icon: https://raw.githubusercontent.com/Kareadita/Kavita/main/Assets/kavita-icon.png
+icon: https://www.kavitareader.com/img/logo.png
 category: Media
 version: "0.7.14"
 port: 5000
